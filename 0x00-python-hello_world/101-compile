@@ -1,0 +1,3 @@
+#!/bin/bash
+OUTPUT_FILE="./$(basename "$PYFILE").c"
+python3 "$PYFILE" -o "$OUTPUT_FILE"
