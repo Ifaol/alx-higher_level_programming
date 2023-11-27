@@ -1,0 +1,1 @@
+This is a directory for the alx 0x00. Python - Hello, World project.
