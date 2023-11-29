@@ -1,3 +1,2 @@
 #!/bin/bash
-py_file="$PYFILE"
-python3 "$py_file" -o ./"${py_file}c"
+python3 -m compileall -b $PYFILE
