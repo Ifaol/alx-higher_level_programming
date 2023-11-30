@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import sys
 from calculator_1 import add, sub, mul, div
+
+
 def calculate_result(a, operator, b):
     if operator == '+':
         return add(a, b)
@@ -10,6 +12,8 @@ def calculate_result(a, operator, b):
         return mul(a, b)
     elif operator == '/':
         return div(a, b)
+
+
 if __name__ == "__main__":
     n = len(sys.argv)
     if n != 4:
