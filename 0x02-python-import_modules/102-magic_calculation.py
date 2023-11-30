@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+m = __import__('magic_calculation_102', globals(), locals(), ['add', 'sub'], 0)
+add, sub = m.add, m.sub
+
+
 def magic_calculation(a, b):
-    add, sub = __import__('magic_calculation_102', globals(), locals(), ['add', 'sub'], 0).add, __import__('magic_calculation_102', globals(), locals(), ['add', 'sub'], 0).sub
     if a < b:
         c = add(a, b)
         for i in range(4, 6):
