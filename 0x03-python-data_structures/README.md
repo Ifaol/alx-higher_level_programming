@@ -1,0 +1,1 @@
+This is a directory for the ALX SE's 0x03. Python - Data Structures: Lists, Tuples project.
