@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-class Rectangle:
-    """A class representing a rectangle.
+"""Defines an empty class Rectangle"""
 
-    Attributes:
-        width (int): The width of the rectangle.
-        height (int): The height of the rectangle.
-    """
+
+class Rectangle:
+    """An empty class representing a rectangle."""
 
     def __init__(self):
         pass
