@@ -1,0 +1,1 @@
+This is a directory for the ALX SE's 0x0A. Python - Inheritance project.
