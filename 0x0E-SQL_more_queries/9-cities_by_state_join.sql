@@ -1,4 +1,4 @@
---This script lists all cities contained in the database hbtn_0d_usa.
+-- This script lists all cities contained in the database hbtn_0d_usa.
 
 -- Each record should display: cities.id - cities.name - states.name.
 
